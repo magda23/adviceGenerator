@@ -1,0 +1,87 @@
+.main_block {
+  background-color: #202733;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.advice_block {
+  width: 540px;
+  background-color: #313a48;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Manrope bd";
+  position: relative;
+}
+.advice_box {
+  padding: 48px 48px 72px;
+  width: 445px;
+}
+.adv_id {
+  color: #53ffaa;
+  margin-bottom: 24px;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 4px;
+}
+.random_txt {
+  color: #cee3e9;
+  line-height: 38.25px;
+  font-size: 28px;
+  margin-bottom: 40px;
+  min-height: 115px;
+}
+.stick {
+  width: 6px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: #cee3e9;
+  margin: 0 4px;
+}
+.line_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line_block {
+  position: relative;
+}
+.line_block::after,
+.line_block::before {
+  content: "";
+  position: absolute;
+  width: 45%;
+  height: 1px;
+  background: #4f5d74;
+}
+
+.line_block::before {
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.line_block::after {
+  right: 0;
+  transform: translateY(-50%);
+}
+.random_btn {
+  width: 64px;
+  height: 64px;
+  background: #53ffaa;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: -65px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.random_btn:hover {
+  box-shadow: rgba(83, 255, 170, 1) 0 0 40px;
+}

@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+  .main_block {
+    padding: 16px;
+  }
+  .advice_block {
+    width: 100%;
+  }
+  .advice_box {
+    width: 90%;
+  }
+  .random_txt {
+    font-size: 20px;
+  }
+}
